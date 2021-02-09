@@ -4,7 +4,7 @@
              x:Class="CashRegisterApplication.MainPage"
             >
     <NavigationPage.TitleView>
-        <Label Text="Cash Register App" FontSize="Medium" FontAttributes="Bold"/>
+        <Label Text="Cash Register App" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
     </NavigationPage.TitleView>
     <StackLayout Padding="25">
 

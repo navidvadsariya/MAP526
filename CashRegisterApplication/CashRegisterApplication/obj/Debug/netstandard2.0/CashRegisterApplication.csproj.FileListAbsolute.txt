@@ -14,5 +14,4 @@ C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterAp
 C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.csprojAssemblyReference.cache
 C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\ManagerPanel.xaml.g.cs
 C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\HistoryPage.xaml.g.cs
-C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\OriMainPage.xaml.g.cs
 C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\DetailHistoryPage.xaml.g.cs

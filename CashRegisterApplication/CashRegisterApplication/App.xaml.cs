@@ -10,7 +10,7 @@ namespace CashRegisterApplication
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new OriMainPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

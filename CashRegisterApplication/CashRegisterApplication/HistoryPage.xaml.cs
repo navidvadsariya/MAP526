@@ -20,9 +20,11 @@ namespace CashRegisterApplication
             productHistoryList.ItemsSource = localHistory;
         }
 
-        private void ProductHistorySelected(object sender, SelectedItemChangedEventArgs e)
+        async void ProductHistorySelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Navigation.PushAsync(new DetailHistoryPage((History)e.SelectedItem));
+            await Navigation.PushAsync(new DetailHistoryPage((History)e.SelectedItem));
+            //((ListView)sender).SelectedItem = null;
+            
         }
 
         
