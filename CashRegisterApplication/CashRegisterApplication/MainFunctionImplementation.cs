@@ -53,7 +53,7 @@ namespace CashRegisterApplication
                             done = true;
                         }
                     }
-                    if (done == true)
+                    if (done)
                     {
                         Quantity.Text = "Success!";
                         historyList.Add(new History(product.name, quantity, int.Parse(Total.Text), DateTime.Now.ToString()));
@@ -86,7 +86,7 @@ namespace CashRegisterApplication
         }
         private void CalculateTotal()
         {
-            int total = product.quantity * int.Parse(Quantity.Text);
+            double total = product.quantity * double.Parse(Quantity.Text);
             Total.Text = total.ToString();
         }
 

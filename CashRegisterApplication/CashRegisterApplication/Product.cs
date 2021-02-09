@@ -44,11 +44,32 @@ namespace CashRegisterApplication
                 }
             }
         }
+        private double _price;
+        public double price
+        {
+            get
+            {
+                return _price;
+            }
+            set
+            {
+                if (_price == value)
+                {
+                    return;
+                }
+                _price = value;
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs(nameof(price)));
+                }
+            }
+        }
 
-        public Product(string name, int quantity)
+        public Product(string name, int quantity, double price)
         {
             this.name = name;
             this.quantity = quantity;
+            this.price = price;
         }
 
     }

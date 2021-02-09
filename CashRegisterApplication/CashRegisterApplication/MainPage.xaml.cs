@@ -20,11 +20,11 @@ namespace CashRegisterApplication
 
              products = new ObservableCollection<Product>
             {
-                new Product("Pants", 20),
-                new Product("Shoes", 50),
-                new Product("Hats", 10),
-                new Product("Tshirts", 10),
-                new Product("Dresses", 24)
+                new Product("Pants", 20, 50.7),
+                new Product("Shoes", 50, 90),
+                new Product("Hats", 10, 20.5),
+                new Product("Tshirts", 10, 55.4),
+                new Product("Dresses", 24, 140.3)
             };
             productList.ItemsSource = products;
         }

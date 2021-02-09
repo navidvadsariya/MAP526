@@ -22,9 +22,7 @@ namespace CashRegisterApplication
 
         async void ProductHistorySelected(object sender, SelectedItemChangedEventArgs e)
         {
-            await Navigation.PushAsync(new DetailHistoryPage((History)e.SelectedItem));
-            //((ListView)sender).SelectedItem = null;
-            
+            await Navigation.PushAsync(new DetailHistoryPage((History)e.SelectedItem));            
         }
 
         

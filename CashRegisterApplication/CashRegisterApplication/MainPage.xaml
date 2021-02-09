@@ -46,21 +46,21 @@
                       x:Name="productList"
                       SeparatorColor="Green"
                       SelectionMode="Single"
-                       ItemSelected="ProductSelected">
+                      ItemSelected="ProductSelected"
+                      HasUnevenRows="true">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal" Padding="10">
-                            <!--<TextCell Text="{Binding name}" Detail="{Binding quantity}"/>-->
+                            <StackLayout Orientation="Horizontal" Padding="10" >
                                 <StackLayout HorizontalOptions="StartAndExpand">
-                                    <Label Text="{Binding name}" FontSize="Medium"/>
+                                    <Label Text="{Binding name}" FontSize="15"/>
+                                    <Label Text="{Binding price}" TextColor="Red" FontSize="15"/>
                                 </StackLayout>
-                                <Label Text="{Binding quantity}" FontSize="Medium"/>
+                                <Label Text="{Binding quantity}" FontSize="15"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-               
             </ListView>
         </Grid>
            
