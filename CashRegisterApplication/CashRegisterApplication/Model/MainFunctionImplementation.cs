@@ -56,7 +56,7 @@ namespace CashRegisterApplication
                     if (done)
                     {
                         Quantity.Text = "Success!";
-                        historyList.Add(new History(product.name, quantity, int.Parse(Total.Text), DateTime.Now.ToString()));
+                        historyList.Add(new History(product.name, quantity, Double.Parse(Total.Text), DateTime.Now.ToString()));
                     }
                 }
                 else
@@ -86,13 +86,13 @@ namespace CashRegisterApplication
         }
         private void CalculateTotal()
         {
-            double total = product.quantity * double.Parse(Quantity.Text);
+            double total = product.price * Double.Parse(Quantity.Text);
             Total.Text = total.ToString();
         }
 
         async void ManagerButtonClicker(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ManagerPanel(historyList));
+            await Navigation.PushAsync(new ManagerPanel(historyList, products));
         }
     }
 }

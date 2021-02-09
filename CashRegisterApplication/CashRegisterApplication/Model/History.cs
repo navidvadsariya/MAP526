@@ -8,10 +8,10 @@ namespace CashRegisterApplication
     {
         public string name { get; set; }
         public int quantity { get; set; }
-        public int total_price { get; set; }
+        public double total_price { get; set; }
         public string purchase_date { get; set; }
 
-        public History(string name, int quantity, int total_price, string purchase_date)
+        public History(string name, int quantity, double total_price, string purchase_date)
         {
             this.name = name;
             this.quantity = quantity;

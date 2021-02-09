@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,10 +14,12 @@ namespace CashRegisterApplication
     public partial class ManagerPanel : ContentPage
     {
         List<History> localHistory;
-        public ManagerPanel(List<History> historyList)
+        ObservableCollection<Product> localProductList;
+        public ManagerPanel(List<History> historyList, ObservableCollection<Product> productList)
         {
             InitializeComponent();
             localHistory = historyList;
+            localProductList = productList;
         }
 
         async void HistoryButtonClicked(object sender, EventArgs e)
@@ -26,7 +29,7 @@ namespace CashRegisterApplication
 
         async void RestockButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new HistoryPage(localHistory));
+            await Navigation.PushAsync(new RestockPage(localProductList));
         }
     }
 }
