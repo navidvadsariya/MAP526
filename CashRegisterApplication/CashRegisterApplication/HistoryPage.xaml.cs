@@ -13,7 +13,6 @@ namespace CashRegisterApplication
     public partial class HistoryPage : ContentPage
     {
         List<History> localHistory;
-        History selectedHistory;
         public HistoryPage(List<History> historyList)
         {
             InitializeComponent();

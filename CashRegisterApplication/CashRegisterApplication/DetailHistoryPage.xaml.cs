@@ -19,7 +19,7 @@ namespace CashRegisterApplication
             Name.Text = history.name;
             Quantity.Text = history.quantity.ToString();
             DateAndTime.Text = history.purchase_date;
-            TotalAmount.Text = history.total_price.ToString();
+            TotalAmount.Text = "Total Amount: " + history.total_price.ToString();
         }
     }
 }

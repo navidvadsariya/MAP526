@@ -4,7 +4,7 @@
              x:Class="CashRegisterApplication.OriMainPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Button Text="Start" Clicked="StartButtonClicked"/>
+            <Button Text="Start Cash Register" Clicked="StartButtonClicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
