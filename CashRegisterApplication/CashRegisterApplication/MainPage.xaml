@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CashRegisterApplication.MainPage"
+            >
+    <StackLayout Padding="25">
+
+        <Label Text="Cash Register App" FontSize="Medium" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            
+            <Label Grid.Row="0" Grid.Column="0" Text="Type" FontSize="Large" x:Name="Type"/>
+            <Button Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Manager" Clicked="ManagerButtonClicker" BackgroundColor="Red"/>
+
+            <Button Grid.Row="1" Grid.Column="0" Text="1" Clicked="NumClicked" />
+            <Button Grid.Row="1" Grid.Column="1" Text="2" Clicked="NumClicked"/>
+            <Button Grid.Row="1" Grid.Column="2" Text="3" Clicked="NumClicked"/>
+            <Label  Grid.Row="1" Grid.Column="3" Text="Total" FontSize="25" x:Name="Total"/>
+
+            <Button Grid.Row="2" Grid.Column="0" Text="4" Clicked="NumClicked"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="5" Clicked="NumClicked"/>
+            <Button Grid.Row="2" Grid.Column="2" Text="6" Clicked="NumClicked"/>
+            <Button Grid.Row="2" Grid.Column="3" Grid.RowSpan="2" Text="Buy" Clicked="BuySelected" BackgroundColor="Blue" TextColor="White"/>
+
+            <Button Grid.Row="3" Grid.Column="0" Text="7" Clicked="NumClicked"/>
+            <Button Grid.Row="3" Grid.Column="1" Text="8" Clicked="NumClicked"/>
+            <Button Grid.Row="3" Grid.Column="2" Text="9" Clicked="NumClicked"/>
+
+            <Button Grid.Row="4" Grid.Column="1" Text="0" Clicked="NumClicked"/>
+           
+
+            <Label  Grid.Row="5" Grid.ColumnSpan="4" Text="Quantity" FontSize="25" x:Name="Quantity"/>
+         
+            <ListView Grid.Row="6" Grid.ColumnSpan="4" 
+                      x:Name="productList"
+                      SeparatorColor="Green"
+                      SelectionMode="Single"
+                       ItemSelected="ProductSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="10">
+                            <!--<TextCell Text="{Binding name}" Detail="{Binding quantity}"/>-->
+                                <StackLayout HorizontalOptions="StartAndExpand">
+                                    <Label Text="{Binding name}" FontSize="Medium"/>
+                                </StackLayout>
+                                <Label Text="{Binding quantity}" FontSize="Medium"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+               
+            </ListView>
+        </Grid>
+           
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EuntZHOr87FcRYC+BzrNC0lwAzh/PdHT/86FRl1wpoWKV/2y23dM5WhIIkK7MTkIQNeJovEEitM40wijvceeZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\navid\\Desktop\\MAP526\\Assignment1\\CashRegisterApplication\\CashRegisterApplication.iOS\\CashRegisterApplication.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

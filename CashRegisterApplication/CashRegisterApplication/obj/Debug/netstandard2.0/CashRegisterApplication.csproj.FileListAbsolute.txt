@@ -1,0 +1,16 @@
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\bin\Debug\netstandard2.0\CashRegisterApplication.deps.json
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\bin\Debug\netstandard2.0\CashRegisterApplication.dll
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\bin\Debug\netstandard2.0\ref\CashRegisterApplication.dll
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\bin\Debug\netstandard2.0\CashRegisterApplication.pdb
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.AssemblyInfoInputs.cache
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.AssemblyInfo.cs
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.csproj.CoreCompileInputs.cache
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.dll
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\ref\CashRegisterApplication.dll
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.pdb
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\CashRegisterApplication.csprojAssemblyReference.cache
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\ManagerPanel.xaml.g.cs
+C:\Users\navid\Desktop\MAP526\Assignment1\CashRegisterApplication\CashRegisterApplication\obj\Debug\netstandard2.0\HistoryPage.xaml.g.cs
