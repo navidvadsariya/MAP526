@@ -13,6 +13,7 @@ namespace CashRegisterApplication
     public partial class HistoryPage : ContentPage
     {
         List<History> localHistory;
+        History selectedHistory;
         public HistoryPage(List<History> historyList)
         {
             InitializeComponent();
@@ -22,7 +23,9 @@ namespace CashRegisterApplication
 
         private void ProductHistorySelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            Navigation.PushAsync(new DetailHistoryPage((History)e.SelectedItem));
         }
+
+        
     }
 }

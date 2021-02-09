@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CashRegisterApplication.DetailHistoryPage">
+    <NavigationPage.TitleView>
+        <Label Text="" x:Name="Title" FontSize="Medium" FontAttributes="Bold"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="" x:Name="Name"/>
+            <Label Text="" x:Name="Quantity"/>
+            <Label Text="" x:Name="DateAndTime"/>
+            <Label Text="" x:Name="TotalAmount"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

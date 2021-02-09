@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-
+//< Label Text = "Cash Register App" FontSize = "Medium" HorizontalTextAlignment = "Center" FontAttributes = "Bold" />
 namespace CashRegisterApplication
 {
     public partial class MainPage : ContentPage
