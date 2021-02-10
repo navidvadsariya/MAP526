@@ -8,6 +8,7 @@
     <ContentPage.Content>
         
         <StackLayout Padding="10">
+            
             <StackLayout Orientation="Vertical" Padding="30">
                 <Entry x:Name="updatedQuantity" Placeholder="Enter new quantity"/>
                 
@@ -16,16 +17,27 @@
                     <Button  Text="Cancel" Clicked="CancelClicked" />
                 </StackLayout>
             </StackLayout>
+            <StackLayout Padding="20">
             <ListView x:Name="productRestockList"
                       SelectionMode="Single"
                        ItemSelected="ProductRestockSelected">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding name}" Detail="{Binding quantity}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
 
-            </ListView>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding name}"/>
+
+                                    <StackLayout HorizontalOptions="EndAndExpand">
+                                        <Label Text="{Binding quantity}" />
+                                    </StackLayout>
+                                </StackLayout>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
