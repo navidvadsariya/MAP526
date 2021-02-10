@@ -30,7 +30,7 @@ namespace CashRegisterApplication
 
         private void RestockClicked(object sender, EventArgs e)
         {
-            if(product != null)
+            if(product != null  && updatedQuantity.Text != null && (updatedQuantity.Text).All(char.IsDigit) && updatedQuantity.Text.Length > 0)
             {
                 Boolean done = false;
 
@@ -46,6 +46,7 @@ namespace CashRegisterApplication
                             done = true;
                         }
                     }
+                  
                 }
                 else
                 {
@@ -54,9 +55,10 @@ namespace CashRegisterApplication
             }
             else
             {
-                DisplayAlert("Alert", "Please a product first.", "OK");
+                DisplayAlert("Alert", "Please select a product and new quantity.", "OK");
             }
-            
+           
+            updatedQuantity.Text = "";
         }
 
         private void CancelClicked(object sender, EventArgs e)
